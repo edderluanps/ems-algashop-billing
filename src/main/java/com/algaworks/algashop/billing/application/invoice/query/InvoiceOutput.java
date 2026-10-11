@@ -1,6 +1,6 @@
 package com.algaworks.algashop.billing.application.invoice.query;
 
-import com.algaworks.algashop.billing.application.invoice.PayerData;
+import com.algaworks.algashop.billing.application.invoice.management.PayerData;
 import com.algaworks.algashop.billing.domain.model.invoice.InvoiceStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;

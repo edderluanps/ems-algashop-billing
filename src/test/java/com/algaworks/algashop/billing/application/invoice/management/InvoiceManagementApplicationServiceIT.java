@@ -1,8 +1,5 @@
 package com.algaworks.algashop.billing.application.invoice.management;
 
-import com.algaworks.algashop.billing.application.invoice.GenerateInvoiceInput;
-import com.algaworks.algashop.billing.application.invoice.InvoiceManagementApplicationService;
-import com.algaworks.algashop.billing.application.invoice.PaymentSettingsInput;
 import com.algaworks.algashop.billing.domain.model.creditcard.CreditCard;
 import com.algaworks.algashop.billing.domain.model.creditcard.CreditCardRepository;
 import com.algaworks.algashop.billing.domain.model.creditcard.CreditCardTestDataBuilder;
