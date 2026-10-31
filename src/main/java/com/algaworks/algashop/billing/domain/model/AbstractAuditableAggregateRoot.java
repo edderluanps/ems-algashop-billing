@@ -16,7 +16,8 @@ import java.util.UUID;
 @Setter(AccessLevel.PRIVATE)
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-public abstract class AbstractAuditableAggregateRoot<T extends AbstractAggregateRoot<T>> extends AbstractAggregateRoot<T> {
+public abstract class AbstractAuditableAggregateRoot<T extends AbstractAggregateRoot<T>>
+        extends AbstractAggregateRoot<T> {
 
     @CreatedBy
     protected UUID createdByUserId;
