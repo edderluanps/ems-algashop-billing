@@ -4,6 +4,7 @@ import com.algaworks.algashop.billing.domain.model.invoice.PaymentMethod;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 
 public class GenerateInvoiceInputTestDataBuilder {
